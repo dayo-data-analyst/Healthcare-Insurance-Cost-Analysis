@@ -98,23 +98,30 @@ ________________________________________
 ________________________________________
 
 📁 Repository Structure
+
 Healthcare-Insurance-Cost-Analysis/
 │
+
 ├── Dataset/
 │   └── healthcare_insurance.csv
 │
+
 ├── SQL/
 │   └── insurance_analysis_queries.sql
 │
+
 ├── Power BI/
 │   └── Healthcare_Insurance_Cost_Analysis.pbix
 │
+
 ├── Dashboard/
 │   └── dashboard_screenshot.png
 │
+
 ├── Report/
 │   └── Healthcare_Insurance_Report.pdf
 │
+
 └── README.md
 ________________________________________
 
