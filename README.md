@@ -107,7 +107,7 @@ Healthcare-Insurance-Cost-Analysis/
 │
 
 ├── SQL/
-│   └── insurance_analysis_queries.sql
+│   └── insurance_analysis_queries screenshots.png
 │
 
 ├── Power BI/
