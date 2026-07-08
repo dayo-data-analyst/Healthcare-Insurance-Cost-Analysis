@@ -67,15 +67,15 @@ ________________________________________
 🔍 Project Workflow
 
 1. Data Extraction (SQL)
-2. 
+   
 •	Queried the insurance database using SQL
 
 •	Selected relevant variables for analysis
 
 •	Validated data quality
 
-4. Data Preparation
-5. 
+2. Data Preparation
+   
 •	Checked for missing values
 
 •	Reviewed data consistency
@@ -94,8 +94,8 @@ ________________________________________
 
 <img width="1058" height="608" alt="Screenshot_Preparation_Continuazation" src="https://github.com/user-attachments/assets/94841371-bd86-49fe-a85e-5739487d7e43" />
 
-7. Data Analysis (Power BI)
-8. 
+3. Data Analysis (Power BI)
+   
 Created calculated measures and KPIs to evaluate:
 
 •	Average insurance charges
@@ -112,8 +112,8 @@ Created calculated measures and KPIs to evaluate:
 
 •	Family size effects
 
-10. Dashboard Development
-11. 
+4. Dashboard Development
+    
 Built an interactive Power BI dashboard allowing users to filter results by demographic characteristics and explore insurance cost drivers.
 
 ________________________________________
