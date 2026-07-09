@@ -296,7 +296,7 @@ Data Analyst with practical experience in SQL, Microsoft Power BI, Microsoft Exc
 
 📬 Connect with Me
 
-•	LinkedIn: 
+•	LinkedIn: https://www.linkedin.com/in/dayo-afariogun
 
 •	GitHub: https://github.com/dayo-data-analyst
 
