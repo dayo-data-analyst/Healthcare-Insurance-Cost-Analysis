@@ -1,86 +1,113 @@
-🏥 Healthcare Insurance Cost Analysis
+# ❤️ Healthcare Insurance Cost Analysis
 
-<img width="591" height="330" alt="dashboard_screenshot" src="https://github.com/user-attachments/assets/a17f9770-c880-42db-9ca1-9dffe85388c0" />
+### SQL | Power BI | Healthcare Analytics | Business Intelligence | Risk & Pricing Analytics
 
+---
 
-📌 Project Overview
+# 📌 Executive Summary
 
-This project presents an end-to-end analysis of healthcare insurance costs using SQL and Microsoft Power BI. The objective is to identify the key factors influencing insurance charges and provide actionable insights through interactive dashboards and data-driven reporting.
-The analysis explores how demographic and lifestyle factors such as age, BMI, smoking status, gender, number of children, and region affect insurance costs, enabling insurers to make informed pricing and risk assessment decisions.
-This project is part of my Data Analytics portfolio and demonstrates practical SQL querying, data modelling, business intelligence, and dashboard development skills.
+Healthcare insurers operate in an environment where accurate pricing, effective risk assessment, and sustainable profitability depend on understanding the factors that drive medical costs.
 
-________________________________________
+This project demonstrates how SQL and Microsoft Power BI can transform healthcare insurance data into meaningful business intelligence that supports underwriting decisions, pricing strategies, and executive planning.
 
+Using demographic, lifestyle, and healthcare cost data, I analysed the key drivers of insurance charges and developed an interactive Power BI dashboard that enables decision-makers to monitor risk, evaluate customer profiles, and identify opportunities to improve profitability.
 
-🎯 Business Problem
+Beyond dashboard development, the project applies business analysis and financial reasoning to explain how customer behaviour influences insurance revenue, claims expense, underwriting profit, and the insurer's balance sheet.
 
-Healthcare insurance providers need to understand the factors that drive insurance charges in order to:
+The project demonstrates my ability to combine technical analytics with business storytelling to solve real-world business problems.
 
-•	Improve premium pricing strategies
+---
 
-•	Assess customer risk accurately
+# 🎯 Business Problem
 
-•	Identify high-cost customer groups
+Insurance companies must price policies accurately while remaining competitive.
 
-•	Support evidence-based business decisions
+If customer risk is underestimated:
 
-•	Enhance profitability while maintaining fair pricing
+- Claims costs increase
+- Profit margins decline
+- Premium pricing becomes unsustainable
+- Cash reserves reduce
+- Insurance liabilities increase
 
-This project uses SQL and Power BI to transform raw insurance data into meaningful business insights.
+Management therefore requires analytical insight into the characteristics that drive healthcare costs.
 
-________________________________________
+This project demonstrates how data analytics enables insurers to make evidence-based pricing and risk management decisions.
 
-📂 Dataset
+---
 
-The dataset contains healthcare insurance records with customer demographic, lifestyle, and insurance cost information.
+# 🎯 Project Objectives
 
-Key Fields
+The objectives of this project were to:
 
-•	Age
+- Identify the major drivers of healthcare insurance costs
+- Analyse customer demographics and lifestyle characteristics
+- Compare insurance charges across different customer groups
+- Develop an interactive executive dashboard
+- Support pricing and underwriting decisions
+- Provide strategic recommendations for risk management
+- Explain the financial implications for an insurance company
 
-•	Gender
+---
 
-•	BMI (Body Mass Index)
+# 📂 Dataset Overview
 
-•	Number of Children
+The Healthcare Insurance Dataset contains customer demographic, lifestyle, and insurance information.
 
-•	Smoking Status
+The dataset includes:
 
-•	Region
+- Age
+- Gender
+- Body Mass Index (BMI)
+- Number of Children
+- Smoking Status
+- Geographic Region
+- Insurance Charges
 
-•	Insurance Charges
+The combination of demographic and behavioural variables provides a comprehensive view of the factors influencing healthcare expenditure.
 
-________________________________________
+---
 
-🛠 Tools & Technologies
+# 🛠️ Technologies Used
 
-•	SQL Server – Data extraction and querying
+| Technology | Purpose |
+|------------|----------|
+| SQL | Data Extraction |
+| SQL Server | Database Management |
+| Microsoft Power BI | Interactive Dashboard Development |
+| Power Query | Data Cleaning & Transformation |
+| DAX | KPI Calculations |
+| Data Modelling | Relationship Management |
+| Data Visualisation | Executive Reporting |
 
-•	Microsoft Power BI – Data modelling, visualization, and dashboard development
+---
 
-•	Microsoft Excel – Initial data inspection and validation
+# 🔄 Project Workflow
 
-•	GitHub – Version control and project documentation
-
-________________________________________
-
-🔍 Project Workflow
-
-1. Data Extraction (SQL)
-   
-•	Queried the insurance database using SQL
-
-•	Selected relevant variables for analysis
-
-•	Validated data quality
-
-2. Data Preparation
-   
-•	Checked for missing values
-
-•	Reviewed data consistency
-
-•	Prepared the dataset for visualization
+```text
+Healthcare Database
+          │
+          ▼
+SQL Data Extraction
+          │
+          ▼
+Data Cleaning
+          │
+          ▼
+Power Query
+          │
+          ▼
+Data Modelling
+          │
+          ▼
+Power BI Dashboard
+          │
+          ▼
+Business Insights
+          │
+          ▼
+Strategic Recommendations
+```
 
 <img width="1020" height="606" alt="Screenshot_Data_Extraction" src="https://github.com/user-attachments/assets/0fb165d0-37d7-4484-a273-6890bfed1249" />
 
@@ -94,214 +121,266 @@ ________________________________________
 
 <img width="1058" height="608" alt="Screenshot_Preparation_Continuazation" src="https://github.com/user-attachments/assets/94841371-bd86-49fe-a85e-5739487d7e43" />
 
-3. Data Analysis (Power BI)
-   
-Created calculated measures and KPIs to evaluate:
+---
 
-•	Average insurance charges
+# 📊 Dashboard Overview
 
-•	Gender comparisons
+<img width="591" height="330" alt="dashboard_screenshot" src="https://github.com/user-attachments/assets/a17f9770-c880-42db-9ca1-9dffe85388c0" />
 
-•	Regional differences
+The dashboard enables executives to monitor:
 
-•	Smoking impact
+- Average Insurance Charges
+- Customer Demographics
+- Smoking Distribution
+- BMI Analysis
+- Regional Comparison
+- Age Analysis
+- Customer Segmentation
+- Healthcare Cost Trends
+- Executive KPIs
 
-•	BMI trends
+---
 
-•	Age distribution
+# 📈 Key Performance Indicators (KPIs)
 
-•	Family size effects
+The dashboard tracks several business-critical metrics, including:
 
-4. Dashboard Development
-    
-Built an interactive Power BI dashboard allowing users to filter results by demographic characteristics and explore insurance cost drivers.
+- Total Customers
+- Average Insurance Charges
+- Average BMI
+- Average Age
+- Smoking Rate
+- Regional Customer Distribution
+- Cost by Smoking Status
+- Cost by BMI Category
 
-________________________________________
+These KPIs enable continuous monitoring of customer risk and pricing performance.
 
-📊 Dashboard KPIs
+---
 
-•	Total Average Insurance Charge
+# ❓ Business Questions Answered
 
-•	Male Average Charge
+The analysis addresses several important business questions:
 
-•	Female Average Charge
+- Which factors most strongly influence insurance charges?
+- How does smoking affect medical costs?
+- Does obesity significantly increase healthcare expenditure?
+- Which age groups generate the highest insurance costs?
+- Does gender significantly influence claims?
+- Are there meaningful regional differences?
+- Which customer segments present the greatest financial risk?
 
-<img width="591" height="330" alt="dashboard_screenshot" src="https://github.com/user-attachments/assets/b8c0f774-4489-4a1f-86ae-b7d5e649f5d0" />
+---
 
-________________________________________
+# 🔍 Key Insights
 
-📈 Analysis Performed
+## 🚬 Smoking is the Strongest Cost Driver
 
-The dashboard provides insights into:
+Smoking has the greatest impact on healthcare insurance costs.
 
-•	Average Insurance Cost
+Smokers consistently incur substantially higher medical expenses than non-smokers.
 
-•	Insurance Cost by Age
+### Business Insight
 
-•	Insurance Cost by Gender
+Smoking should remain one of the primary variables considered in underwriting and pricing decisions.
 
-•	Insurance Cost by BMI
+---
 
-•	Insurance Cost by Number of Children
+## ⚖️ BMI Significantly Influences Medical Costs
 
-•	Insurance Cost by Region
+Customers with higher BMI values generally generate higher healthcare expenses.
 
-•	Insurance Cost by Smoking Status
+### Business Insight
 
-________________________________________
+Obesity increases the likelihood of chronic medical conditions, resulting in greater claims frequency and higher treatment costs.
 
-📊 Key Insights
+Preventive health programmes could reduce long-term insurance costs.
 
-Smoking Status
+---
 
-Smoking has the strongest impact on healthcare insurance costs. Smokers incur significantly higher average charges than non-smokers, reflecting the increased health risks associated with smoking.
+## 👴 Age Increases Insurance Charges
 
-Age
+Healthcare costs rise steadily with age.
 
-Insurance costs generally increase with age, indicating that older policyholders are associated with higher healthcare expenditures.
+### Business Insight
 
-Body Mass Index (BMI)
+Older customers typically require more frequent medical services, making age an important component of pricing models.
 
-Individuals with higher BMI values tend to have higher insurance charges, suggesting that obesity and related health conditions contribute to increased medical costs.
+---
 
-Gender
+## 👨‍👩‍👧 Gender Has Limited Impact
 
-Average insurance charges are relatively similar between males and females, indicating that gender alone has a limited influence on insurance pricing.
+After accounting for lifestyle factors, gender has relatively little influence on insurance costs.
 
-Number of Children
+### Business Insight
 
-Insurance costs vary across family sizes, although the relationship is less pronounced than age or smoking status.
-Regional Analysis
+Lifestyle behaviour is a more meaningful predictor of healthcare expenditure than gender.
 
-Average insurance charges show only moderate variation across regions, suggesting that lifestyle and individual risk factors have a greater impact than geographic location.
+---
 
-________________________________________
+## 🌍 Regional Differences are Relatively Small
 
-💡 Business Recommendations
+Insurance charges remain broadly consistent across geographic regions.
 
-•	Introduce targeted wellness and smoking cessation programmes to help reduce long-term healthcare costs.
+### Business Insight
 
-•	Use age and BMI as key factors in actuarial pricing models while ensuring compliance with applicable regulations.
+Customer behaviour contributes more to healthcare costs than location.
 
-•	Offer preventive healthcare incentives for high-risk customer groups.
+---
 
-•	Develop personalised insurance plans based on customer risk profiles.
+# 💼 Business Impact
 
-•	Continue monitoring regional trends to identify emerging healthcare cost patterns.
+This analysis supports insurers by enabling them to:
 
-________________________________________
+- Improve pricing accuracy
+- Strengthen underwriting decisions
+- Reduce financial risk
+- Improve customer segmentation
+- Develop preventive healthcare initiatives
+- Increase long-term profitability
+- Support evidence-based strategic planning
 
+---
 
-📁 Repository Structure
+# 💰 Financial & Accounting Perspective
 
-Healthcare-Insurance-Cost-Analysis/
+From a financial perspective, customer risk directly affects insurance company performance.
+
+## Premium Revenue
+
+Higher-risk customers generally pay higher premiums.
+
+However, if premiums do not accurately reflect risk, insurers may collect insufficient revenue to cover future claims.
+
+---
+
+## Claims Expense
+
+Smoking and obesity significantly increase healthcare claims.
+
+Higher claims reduce:
+
+- Operating Profit
+- Underwriting Profit
+- Net Income
+
+This weakens overall financial performance.
+
+---
+
+## Balance Sheet Impact
+
+Higher-risk customer groups require larger claim reserves.
+
+This affects:
+
+- Cash
+- Insurance Liabilities
+- Retained Earnings
+- Shareholders' Equity
+
+Improved pricing models help strengthen financial stability.
+
+---
+
+## Investment Income
+
+Insurance companies invest premium income before claims are paid.
+
+Lower claim costs allow greater investment balances, generating additional investment income and improving long-term profitability.
+
+---
+
+# 💡 Strategic Recommendations
+
+Based on the analysis:
+
+- Expand wellness programmes focused on smoking cessation and weight management.
+- Introduce more sophisticated risk-based pricing models.
+- Reward healthier customers with premium incentives.
+- Use predictive analytics to identify high-risk policyholders earlier.
+- Prioritise preventive healthcare campaigns for customers exhibiting multiple risk factors.
+
+---
+
+# 📊 Skills Demonstrated
+
+## SQL
+
+- Data Extraction
+- Data Validation
+- Query Optimisation
+
+## Business Intelligence
+
+- Microsoft Power BI
+- Power Query
+- DAX
+- KPI Reporting
+- Interactive Dashboards
+
+## Healthcare Analytics
+
+- Risk Assessment
+- Customer Segmentation
+- Cost Driver Analysis
+- Pricing Analytics
+
+## Business Analysis
+
+- Executive Reporting
+- Data Storytelling
+- Strategic Recommendations
+- Decision Support
+
+---
+
+# 🚀 Future Enhancements
+
+Future developments may include:
+
+- Healthcare Cost Prediction using Machine Learning
+- Claims Forecasting Models
+- Customer Risk Scoring
+- Premium Optimisation Models
+- Predictive Underwriting Dashboards
+- AI-Assisted Healthcare Analytics
+
+---
+
+# 📁 Repository Structure
+
+```text
+Healthcare-Insurance-Cost-Analysis
 │
-
-├── Dataset/
-│   └── healthcare_insurance.csv
-│
-
-├── SQL/
-│   └── Screenshot _Data_Extraction.png
-    └── Screenshot _Data_Validation.png
-    └── Screenshot_Missing Values.png
-    └── Screenshot_Categorical.png
-    └── Screenshot_Visualization_Preparation.png
-    └── Screenshot_Preparation_Continuazation.png
-│
-
-├── Power BI/
-│   └── Healthcare_Insurance_Cost_Analysis.pbix
-│
-
-├── Dashboard/
-│   └── dashboard_screenshot.png
-│
-
-├── Report/
-│   └── Healthcare_Insurance_Report.pdf
-│
-
+├── Dataset
+├── SQL Query Screenshots
+├── Power BI
+├── Dashboard Screenshot
+├── Project Report
 └── README.md
+```
 
-________________________________________
+---
 
-🚀 Skills Demonstrated
+# 👨‍💼 About the Author
 
-•	SQL Query Writing
+## **Dayo Rex Afariogun**
 
-•	Data Extraction
+**Business Analyst | Financial Data Analytics | Business Intelligence**
 
-•	Data Cleaning
+I specialise in transforming business, financial, and operational data into strategic insights using SQL, Python, Power BI, and Microsoft Excel. With a strong Accounting background and over 14 years of business leadership experience, I combine technical analytics with commercial understanding to help organisations improve performance through data-driven decision-making.
 
-•	Data Validation
+📧 **Email:** dayorex7@gmail.com
 
-•	Data Modelling
+💼 **LinkedIn:** linkedin.com/in/dayo-afariogun
 
-•	Power BI Dashboard Development
+💻 **GitHub:** github.com/dayo-data-analyst
 
-•	DAX Measures
+---
 
-•	KPI Reporting
+## ⭐ Thank You for Visiting!
 
-•	Exploratory Data Analysis (EDA)
+If you found this project valuable, feel free to ⭐ **star the repository**, explore my other analytics projects, or connect with me on LinkedIn.
 
-•	Business Intelligence
-
-•	Data Visualization
-
-•	Data Storytelling
-
-•	Healthcare Data Analytics
-
-________________________________________
-
-📸 Dashboard Preview
-
-Include screenshots of:
-
-•	Power BI Dashboard
-
-•	SQL Queries
-
-•	KPI Cards
-
-•	Insurance Cost by Smoking Status
-
-•	Insurance Cost by Age
-
-•	Insurance Cost by BMI
-
-•	Insurance Cost by Region
-
-________________________________________
-
-📈 Future Enhancements
-
-•	Develop predictive models to estimate future insurance charges using machine learning.
-
-•	Build customer risk segmentation using clustering techniques.
-
-•	Add forecasting to estimate healthcare costs over time.
-
-•	Integrate additional demographic and medical variables for deeper risk analysis.
-
-________________________________________
-
-👨‍💻 About Me
-
-Dayo Rex Afariogun
-
-Data Analyst with practical experience in SQL, Microsoft Power BI, Microsoft Excel, and Python. I enjoy transforming raw data into actionable insights that help organisations make informed business decisions. I also have B.sc Accounting.
-
-📬 Connect with Me
-
-•	LinkedIn: https://www.linkedin.com/in/dayo-afariogun
-
-•	GitHub: https://github.com/dayo-data-analyst
-
-•	Email: dayorex7@gmail.com
-
-________________________________________
-
-⭐ If you found this project useful or interesting, feel free to star this repository or connect with me on LinkedIn or via Email.
+🚀 **Transforming healthcare data into strategic business intelligence.**
